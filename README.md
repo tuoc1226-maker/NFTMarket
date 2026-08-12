@@ -1,117 +1,101 @@
-<h1 align=center>
-<img src="https://res.cloudinary.com/nataliebravo/image/upload/v1630406853/NFT/banner_npzzzz.png" />
-</h1>
+# 概要
 
-<div align="center">
-  
-![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square) 
-![Node_Badge](https://img.shields.io/badge/node-14.16.1-green?style=flat-square)
-![Npm_Badge](https://img.shields.io/badge/npm-6.14.12-yellow?style=flat-square)
-![React Badge](https://img.shields.io/badge/React-17.0.2-45b8d8?style=flat-square)
-![Solidity_Badge](https://img.shields.io/badge/Solidity-%5E8.0.0-363636?style=flat-square)
-![Truffle](https://img.shields.io/badge/Truffle-5.3.14-F0E8E0?style=flat-square)
-[![Made by NatalieBravo](https://img.shields.io/badge/made%20by-NatalieBravo-blueviolet?style=flat-square)](https://www.linkedin.com/in/nataliebravo/)
-</div>
+🇯🇵 [日本語](README.md) | 🇺🇸 [英語](README.en.md)
 
-# Summary
-
-- [About](#about)
-- [Preview](#preview)
-- [Architecture and Client-side Flow](#architecture)
-- [Built with](#technologies)
-- [How to Use](#how-to-use)
+- [概要](#about)
+- [プレビュー](#preview)
+- [アーキテクチャとクライアント側のフロー](#architecture)
+- [使用技術](#technologies)
+- [使い方](#how-to-use)
 - [TODO](#todo)
-- [License](#license)
+- [ライセンス](#license)
 
 <a id='about'/>
 
-## :information_source: About
+## :information_source: 概要
 
-Galerie is a NFT Marketplace that enables the creation, sale, and purchase of digital art as NFTs.
+Galerieは、デジタルアートをNFTとして作成・販売・購入できるNFTマーケットプレイスです。 <a id='preview'/>
 
+## :framed_picture: プレビュー
 
-<a id='preview'/>
-
-## :framed_picture: Preview
-
-Check out how it looks:
+実際の画面の様子はこちらです：
 
 <p align="center">
- <img alt="Homepage print"   src="https://res.cloudinary.com/nataliebravo/image/upload/v1630412771/NFT/galerie-homepage_kznhvx.png" >
+<img alt="Homepage print"   src="./galerie_jp_final.png" >
 <p />
 
 <a id='architecture' />
 
-## :information_source: Architecture and Client-side Flow
+## :information_source: アーキテクチャとクライアント側のフロー
 
 <p align="center">
-  <img alt="Client-Flow"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701427/NFT/client-side-flow_iqhq9a.png">
+<img alt="Client-Flow"src="./nft_flow_jp.png">
 <p />
 
 <p align="center">
-  <img alt="Architecture"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701440/NFT/arquitechure_hunzuw.png">
+<img alt="Architecture"src="./nft_metadata_flow_jp.png">
 <p />
 
 
 <a id='technologies'/>
 
-## :gear: Built With
+## :gear: 使用技術
 
-This project was developed with the following technologies:
+このプロジェクトは以下の技術を使用して開発されました：
 
-#### **Frontend** <sub><sup>React + JavaScript</sup></sub>
-  - [React](https://pt-br.reactjs.org/)
-  - [Axios](https://github.com/axios/axios)
-  - [Redux](https://redux.js.org/)
-  - [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
-  - [Material UI](https://material-ui.com/pt/)
+#### **フロントエンド** <sub><sup>React + JavaScript</sup></sub>
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://github.com/axios/axios)
+- [Redux](https://redux.js.org/)
+- [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
+- [Material UI](https://material-ui.com/pt/)
 
-#### **Backend** <sub><sup>Express</sup></sub>
-  - [Express](https://expressjs.com/pt-br/)
- 
-#### **Blockchain and Smart Contracts** <sub><sup>Solidity</sup></sub>
-  - [Solidity](https://docs.soliditylang.org/)
-  - [Truffle](https://www.trufflesuite.com/)
-  - [Ganache](https://www.trufflesuite.com/ganache)
+#### **バックエンド** <sub><sup>Express</sup></sub>
+- [Express](https://expressjs.com/pt-br/)
+
+#### **ブロックチェーンとスマートコントラクト** <sub><sup>Solidity</sup></sub>
+- [Solidity](https://docs.soliditylang.org/)
+- [Truffle](https://www.trufflesuite.com/)
+- [Ganache](https://www.trufflesuite.com/ganache)
 
 
 <a id='how-to-use'/>
 
-## :joystick: How to Use
+## :joystick: 使い方
 
-### Requirements
+### 前提条件
 
-To run the application you'll need:
+アプリケーションを実行するには、以下が必要です：
 * [Git](https://git-scm.com)
 * [Node](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+* [Yarn](https://yarnpkg.com/) または [npm](https://www.npmjs.com/)
 * [Truffle](https://www.trufflesuite.com/)
 * [Ganache](https://www.trufflesuite.com/ganache)
-* Clone the repository:
-  * ```$ git clone https://github.com/BravoNatalie/NFT-Marketplace.git ```
+* リポジトリをクローンします:
+* ```$ git clone https://github.com/JapanFullstackdev/NFTMarket.git ```
 
 
-Now go to project folder and run:
+プロジェクトフォルダに移動し、以下のコマンドを実行します:
 
 
 ```bash
 $ cd NFT-Marketplace
 
-# install the dependencies
+# 依存関係のインストール
 $ yarn
 
-# run ganache
+# ganacheの起動
 $ ganache-cli
 
-# deploy de contracts on the blockchain
+# ブロックチェーンへのコントラクトのデプロイ
 $ truffle migrate
 
-# run the client-side
+# クライアント側の実行
 $ cd client
 $ yarn
 $ yarn start
 
-# run the backend
+# バックエンドの実行
 $ cd backend
 $ yarn
 $ yarn start
@@ -121,28 +105,19 @@ $ yarn start
 
 ## :page_with_curl: TODO
 
-There are some things to be done in the project:
-  - State persistence;
-  - Revise front-end call to the buy and sell functions on the blockchain;
-  - Error handling;
-  - NFT cards to reflect the true information of price coming from the blockchain.
+このプロジェクトには、まだ実装すべき点がいくつかあります:
+- 状態の永続化（State persistence）;
+- ブロックチェーン上の売買関数を呼び出すフロントエンド処理の修正;
+- エラーハンドリング;
+- NFTカードへの、ブロックチェーン上の正確な価格情報の反映。
 
 <a id='license'/>
 
-## :page_with_curl: License
+## :page_with_curl: ライセンス
 
-This project is under the **MIT license**. See the [LICENSE](https://github.com/BravoNatalie/NFT-Marketplace/blob/master/LICENSE) for more information.
+このプロジェクトは **MITライセンス** の下で公開されています。詳細については [LICENSE](https://github.com/JapanFullstackdev/NFTMarket/blob/master/LICENSE) を参照してください。
 
 
-## :mailbox_with_mail: Get in touch!
-
-<p align="center">
-<a href="https://www.linkedin.com/in/nataliebravo/" target="_blank" >
-  <img alt="Linkedin - Natalie Bravo" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>
-<a href="mailto:natalie.bravo@ice.ufjf.br" target="_blank" >
-  <img alt="Email - Natalie Bravo" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> 
 <br/>
-  Made with :coffee: and ❤️ by <b>Natalie Bravo</b>.
+:coffee: と ❤️ を込めて <b>JapaneseFullstack</b> が作成しました。
 <p/>

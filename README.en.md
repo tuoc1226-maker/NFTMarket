@@ -24,9 +24,9 @@ Galerie is a NFT Marketplace that enables the creation, sale, and purchase of di
 
 Check out how it looks:
 
-<p align="center">
- <img alt="Homepage print"   src="./galerie_jp_final.png" >
-<p />
+~[](./galerie_jp_final.png)
+
+
 
 <a id='architecture' />
 
@@ -123,5 +123,5 @@ This project is under the **MIT license**. See the [LICENSE](https://github.com/
 
 
 <br/>
-  Made with :coffee: and ❤️ by <b>JapaneseFullstack</b>.
+	JapaneseFullstack
 <p/>

@@ -20,9 +20,7 @@ Galerieは、デジタルアートをNFTとして作成・販売・購入でき�
 
 実際の画面の様子はこちらです：
 
-<p align="center">
-<img alt="Homepage print"   src="./galerie_jp_final.png" >
-<p />
+~[](./galerie_jp_final.png)
 
 <a id='architecture' />
 
@@ -119,5 +117,5 @@ $ yarn start
 
 
 <br/>
-:coffee: と ❤️ を込めて <b>JapaneseFullstack</b> が作成しました。
+JapaneseFullstack</b> が作成しました。
 <p/>

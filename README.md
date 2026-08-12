@@ -20,7 +20,7 @@ Galerieは、デジタルアートをNFTとして作成・販売・購入でき�
 
 実際の画面の様子はこちらです：
 
-~[](./galerie_jp_final.png)
+![](./galerie_jp_final.png)
 
 <a id='architecture' />
 

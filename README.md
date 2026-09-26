@@ -109,13 +109,7 @@ $ yarn start
 - エラーハンドリング;
 - NFTカードへの、ブロックチェーン上の正確な価格情報の反映。
 
-<a id='license'/>
-
-## :page_with_curl: ライセンス
-
-このプロジェクトは **MITライセンス** の下で公開されています。詳細については [LICENSE](https://github.com/JapanFullstackdev/NFTMarket/blob/master/LICENSE) を参照してください。
 
 
-<br/>
-JapaneseFullstack</b> が作成しました。
-<p/>
+
+

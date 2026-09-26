@@ -115,13 +115,4 @@ There are some things to be done in the project:
   - Error handling;
   - NFT cards to reflect the true information of price coming from the blockchain.
 
-<a id='license'/>
 
-## :page_with_curl: License
-
-This project is under the **MIT license**. See the [LICENSE](https://github.com/JapanFullstackdev/NFTMarket/blob/master/LICENSE) for more information.
-
-
-<br/>
-	JapaneseFullstack
-<p/>
